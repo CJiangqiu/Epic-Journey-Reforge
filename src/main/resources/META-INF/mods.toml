@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="ejr"
+version="0.0.1"
+displayName="Epic Journy:Reforge"
+displayURL="https://github.com/CJiangqiu/Epic-Journey-Reforge"
+credits="None"
+authors="CJiangqiu"
+description="It will be an epic journey: you\u2019ll confront powerful \u201Cgods,\u201D forge many friendships, and relish an adventurous life in another world."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ejr]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ejr]]
+    modId="jei"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ejr]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ejr]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,78 @@
+{
+  "mod_elements": [
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/steel_ingot.json",
+          "src/main/java/net/ejr/item/SteelIngotItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "EpicJourneyReforge",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_journey_reforge",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ejr.steel_ingot": "Steel Ingot",
+      "item_group.ejr.epic_journey_reforge": "Epic Journey:Reforge"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Item",
+        "children": []
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Entity",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ejr",
+    "modName": "Epic Journy:Reforge",
+    "version": "0.0.1",
+    "description": "It will be an epic journey: you’ll confront powerful “gods,” forge many friendships, and relish an adventurous life in another world.",
+    "author": "CJiangqiu",
+    "websiteURL": "https://github.com/CJiangqiu/Epic-Journey-Reforge",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "jei"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "None",
+    "modElementsPackage": "net.ejr"
+  },
+  "mcreatorVersion": 202400452410
+}

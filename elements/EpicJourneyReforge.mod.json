@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Epic Journey:Reforge",
+    "icon": {
+      "value": "CUSTOM:SteelIngot"
+    },
+    "showSearch": true
+  }
+}
