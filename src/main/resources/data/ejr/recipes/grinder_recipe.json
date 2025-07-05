@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    " c ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ejr:steel_ingot"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "ejr:bit"
+    }
+  },
+  "result": {
+    "item": "ejr:grinder",
+    "count": 1
+  }
+}

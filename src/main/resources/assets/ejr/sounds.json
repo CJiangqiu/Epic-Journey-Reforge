@@ -1,0 +1,10 @@
+{
+  "grinder": {
+    "sounds": [
+      {
+        "name": "ejr:grinder",
+        "stream": false
+      }
+    ]
+  }
+}

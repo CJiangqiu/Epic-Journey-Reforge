@@ -8,11 +8,11 @@
       "registry_name": "steel_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ejr/models/item/steel_ingot.json",
-          "src/main/java/net/ejr/item/SteelIngotItem.java"
+          "src/main/java/net/ejr/item/SteelIngotItem.java",
+          "src/main/resources/assets/ejr/models/item/steel_ingot.json"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Steel"
     },
     {
       "name": "EpicJourneyReforge",
@@ -23,16 +23,739 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Scroll",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/ScrollItem.java",
+          "src/main/resources/assets/ejr/models/item/scroll.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/SteelArmorItem.java",
+          "src/main/resources/assets/ejr/models/item/steel_armor_helmet.json",
+          "src/main/resources/assets/ejr/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/ejr/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/ejr/models/item/steel_armor_boots.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelIngotRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_ingot_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/steel_rod.json",
+          "src/main/java/net/ejr/item/SteelRodItem.java"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_rod_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelHarmer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_harmer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/SteelHarmerItem.java",
+          "src/main/resources/assets/ejr/models/item/steel_harmer.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelHarmerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_harmer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_harmer_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/SteelPlateItem.java",
+          "src/main/resources/assets/ejr/models/item/steel_plate.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelPlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_plate_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "JourneysBeginning",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "journeys_beginning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/advancements/journeys_beginning.json"
+        ]
+      },
+      "path": "~/Advancement"
+    },
+    {
+      "name": "ScrollRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/scroll_recipe.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Bit",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/bit.json",
+          "src/main/java/net/ejr/item/BitItem.java"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "BitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/bit_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "Grinder",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/custom/grinder_particle.json",
+          "src/main/resources/assets/ejr/blockstates/grinder.json",
+          "src/main/resources/assets/ejr/models/item/grinder.json",
+          "src/main/java/net/ejr/block/model/GrinderDisplayModel.java",
+          "src/main/java/net/ejr/block/renderer/GrinderTileRenderer.java",
+          "src/main/java/net/ejr/block/renderer/GrinderDisplayItemRenderer.java",
+          "src/main/java/net/ejr/block/entity/GrinderTileEntity.java",
+          "src/main/java/net/ejr/block/GrinderBlock.java",
+          "src/main/java/net/ejr/block/model/GrinderBlockModel.java",
+          "src/main/java/net/ejr/block/display/GrinderDisplayItem.java"
+        ]
+      },
+      "path": "~/Block/Grinder"
+    },
+    {
+      "name": "GrinderGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/world/inventory/GrinderGuiMenu.java",
+          "src/main/java/net/ejr/client/gui/GrinderGuiScreen.java"
+        ]
+      },
+      "path": "~/Block/Grinder"
+    },
+    {
+      "name": "HasRedstoneUpDown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "has_redstone_up_down",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/HasRedstoneUpDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
+    },
+    {
+      "name": "Progress1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/Progress1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
+    },
+    {
+      "name": "Progress2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/Progress2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
+    },
+    {
+      "name": "Progress3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/Progress3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
+    },
+    {
+      "name": "Progress4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/Progress4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
+    },
+    {
+      "name": "Progress5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/Progress5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
+    },
+    {
+      "name": "GrinderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/grinder_recipe.json"
+        ]
+      },
+      "path": "~/Block/Grinder"
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/gold_dust.json",
+          "src/main/java/net/ejr/item/GoldDustItem.java"
+        ]
+      },
+      "path": "~/Item/Dust"
+    },
+    {
+      "name": "GrinderRecipeType",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_recipe_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/procedures/GrinderRecipeTypeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Grinder"
+    },
+    {
+      "name": "GrinderRecipeTypeTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_recipe_type_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/procedures/GrinderRecipeTypeTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Grinder"
+    },
+    {
+      "name": "ResetNbt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_nbt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/procedures/ResetNbtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
+    },
+    {
+      "name": "EpicJourneyMeachine",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_journey_meachine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/configuration/EpicJourneyMeachineConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "InitCustomRecipeType",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "init_custom_recipe_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/procedures/InitCustomRecipeTypeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Util"
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
-  "tab_element_order": {},
+  "variable_elements": [
+    {
+      "name": "GRINDER_RECIPES_ARRAY",
+      "type": "jsonarray",
+      "scope": "global",
+      "value": "new com.google.gson.JsonArray()"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "grinder",
+      "files": [
+        "grinder"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:c:rods/steel": [
+      "CUSTOM:SteelRod"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Bit",
+      "~CUSTOM:SteelHarmer"
+    ],
+    "ITEMS:forge:rods/steel": [
+      "CUSTOM:SteelRod"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Grinder"
+    ],
+    "ITEMS:c:ingots/steel": [
+      "CUSTOM:SteelIngot"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Grinder"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SteelHarmer"
+    ],
+    "ITEMS:forge:plates/steel": [
+      "CUSTOM:SteelPlate"
+    ],
+    "ITEMS:forge:tools/hammers": [
+      "CUSTOM:SteelHarmer"
+    ],
+    "ITEMS:c:plates/steel": [
+      "CUSTOM:SteelPlate"
+    ],
+    "ITEMS:c:tools/hammers": [
+      "CUSTOM:SteelHarmer"
+    ],
+    "ITEMS:forge:ingots/steel": [
+      "CUSTOM:SteelIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SteelHarmer"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:EpicJourneyReforge": [
+      "Scroll",
+      "SteelIngot",
+      "SteelRod",
+      "SteelHarmer",
+      "SteelPlate",
+      "SteelArmor",
+      "Bit",
+      "Grinder",
+      "GoldDust"
+    ]
+  },
   "language_map": {
     "en_us": {
+      "item.ejr.steel_armor_helmet": "Steel Helmet",
+      "item.ejr.steel_rod": "Steel Rod",
+      "item.ejr.steel_plate": "Steel Plate",
+      "item.ejr.scroll": "Scroll",
+      "item.ejr.steel_armor_chestplate": "Steel Chestplate",
+      "subtitles.grinder": "",
+      "item.ejr.steel_harmer": "Steel Harmer",
+      "item.ejr.gold_dust": "Gold Dust",
+      "item.ejr.steel_armor_leggings": "Steel Leggings",
+      "item.ejr.steel_armor_boots": "Steel Boots",
+      "item.ejr.bit": "Bit",
+      "advancements.journeys_beginning.descr": "Welcome to \"Epic Journey: Reforge\"",
+      "advancements.journeys_beginning.title": " Journey’s Beginning",
       "item.ejr.steel_ingot": "Steel Ingot",
-      "item_group.ejr.epic_journey_reforge": "Epic Journey:Reforge"
+      "item_group.ejr.epic_journey_reforge": "Epic Journey:Reforge",
+      "block.ejr.grinder": "Grinder"
+    },
+    "zh_cn": {
+      "item.ejr.steel_armor_helmet": "钢制头盔",
+      "item.ejr.steel_rod": "钢棒",
+      "item.ejr.steel_plate": "钢板",
+      "item.ejr.scroll": "卷轴",
+      "item.ejr.steel_armor_chestplate": "钢制胸甲",
+      "subtitles.grinder": "",
+      "item.ejr.steel_harmer": "钢锤",
+      "item.ejr.gold_dust": "Gold Dust",
+      "item.ejr.steel_armor_leggings": "钢制护腿",
+      "item.ejr.steel_armor_boots": "钢制靴",
+      "item.ejr.bit": "钻头",
+      "advancements.journeys_beginning.descr": "欢迎来到“史诗征程：重铸”",
+      "advancements.journeys_beginning.title": "征程的开始",
+      "item.ejr.steel_ingot": "钢锭",
+      "item_group.ejr.epic_journey_reforge": "史诗征程：重铸",
+      "block.ejr.grinder": "磨粉机"
     }
   },
   "foldersRoot": {
@@ -40,14 +763,36 @@
     "children": [
       {
         "name": "Item",
-        "children": []
+        "children": [
+          {
+            "name": "Steel",
+            "children": []
+          },
+          {
+            "name": "Dust",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Block",
-        "children": []
+        "children": [
+          {
+            "name": "Grinder",
+            "children": []
+          },
+          {
+            "name": "Util",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Entity",
+        "children": []
+      },
+      {
+        "name": "Advancement",
         "children": []
       }
     ]

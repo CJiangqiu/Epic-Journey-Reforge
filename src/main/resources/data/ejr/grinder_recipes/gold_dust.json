@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  },
+  "result": {
+    "item": "ejr:gold_dust",
+    "count": 2
+  },
+  "time": 100
+}

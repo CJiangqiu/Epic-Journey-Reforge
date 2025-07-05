@@ -1,0 +1,7 @@
+
+{
+  "parent": "ejr:displaysettings/grinder",
+  "textures": {
+    "particle": "ejr:block/grinder"
+  }
+}

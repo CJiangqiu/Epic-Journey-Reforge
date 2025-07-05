@@ -1,0 +1,44 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "ground": {
+      "translation": [
+        0,
+        -3,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        20,
+        -35,
+        0
+      ],
+      "translation": [
+        0,
+        -4.5,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -3,
+        47,
+        0
+      ],
+      "translation": [
+        -0.75,
+        -5.5,
+        1
+      ]
+    }
+  },
+  "textures": {
+    "particle": "ejr:item/grinder"
+  }
+}

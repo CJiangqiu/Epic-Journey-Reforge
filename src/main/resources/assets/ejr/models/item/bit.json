@@ -1,0 +1,7 @@
+{
+  "parent": "ejr:custom/bit",
+  "textures": {
+    "0": "ejr:block/bit",
+    "particle": "ejr:item/bit"
+  }
+}

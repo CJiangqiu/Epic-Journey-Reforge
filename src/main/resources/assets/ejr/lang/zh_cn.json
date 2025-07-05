@@ -1,0 +1,18 @@
+{
+  "item.ejr.steel_armor_helmet": "钢制头盔",
+  "item.ejr.steel_rod": "钢棒",
+  "item.ejr.steel_plate": "钢板",
+  "item.ejr.scroll": "卷轴",
+  "item.ejr.steel_armor_chestplate": "钢制胸甲",
+  "subtitles.grinder": "",
+  "item.ejr.steel_harmer": "钢锤",
+  "item.ejr.gold_dust": "Gold Dust",
+  "item.ejr.steel_armor_leggings": "钢制护腿",
+  "item.ejr.steel_armor_boots": "钢制靴",
+  "item.ejr.bit": "钻头",
+  "advancements.journeys_beginning.descr": "欢迎来到“史诗征程：重铸”",
+  "advancements.journeys_beginning.title": "征程的开始",
+  "item.ejr.steel_ingot": "钢锭",
+  "item_group.ejr.epic_journey_reforge": "史诗征程：重铸",
+  "block.ejr.grinder": "磨粉机"
+}

@@ -18,7 +18,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.ejr.init.EjrModTabs;
+import net.ejr.init.EjrModSounds;
+import net.ejr.init.EjrModMenus;
 import net.ejr.init.EjrModItems;
+import net.ejr.init.EjrModBlocks;
+import net.ejr.init.EjrModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,10 +43,14 @@ public class EjrMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		EjrModSounds.REGISTRY.register(bus);
+		EjrModBlocks.REGISTRY.register(bus);
+		EjrModBlockEntities.REGISTRY.register(bus);
 		EjrModItems.REGISTRY.register(bus);
 
 		EjrModTabs.REGISTRY.register(bus);
+
+		EjrModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,4 +1,18 @@
 {
+  "item.ejr.steel_armor_helmet": "Steel Helmet",
+  "item.ejr.steel_rod": "Steel Rod",
+  "item.ejr.steel_plate": "Steel Plate",
+  "item.ejr.scroll": "Scroll",
+  "item.ejr.steel_armor_chestplate": "Steel Chestplate",
+  "subtitles.grinder": "",
+  "item.ejr.steel_harmer": "Steel Harmer",
+  "item.ejr.gold_dust": "Gold Dust",
+  "item.ejr.steel_armor_leggings": "Steel Leggings",
+  "item.ejr.steel_armor_boots": "Steel Boots",
+  "item.ejr.bit": "Bit",
+  "advancements.journeys_beginning.descr": "Welcome to \"Epic Journey: Reforge\"",
+  "advancements.journeys_beginning.title": " Journey’s Beginning",
   "item.ejr.steel_ingot": "Steel Ingot",
-  "item_group.ejr.epic_journey_reforge": "Epic Journey:Reforge"
+  "item_group.ejr.epic_journey_reforge": "Epic Journey:Reforge",
+  "block.ejr.grinder": "Grinder"
 }
