@@ -59,4 +59,3 @@ Copyright (c) 2025 CJiangqiu
    the author. Any dispute arising under this license shall be settled in
    the courts or arbitration forum designated by the author.
 ────────────────────────────────────────────────────────────────────────
-END OF LICENSE
