@@ -47,7 +47,7 @@
         "data": {
           "image": "redstone_false.png",
           "use1Xscale": false,
-          "x": 204,
+          "x": 206,
           "y": 98,
           "locked": false
         }
@@ -60,7 +60,7 @@
           "displayCondition": {
             "name": "HasRedstoneUpDown"
           },
-          "x": 204,
+          "x": 206,
           "y": 98,
           "locked": false
         }
@@ -139,6 +139,24 @@
           "y": 62,
           "locked": false
         }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_proc_grinder_tip",
+          "text": {
+            "fixedValue": "",
+            "name": "GrinderTip"
+          },
+          "displayCondition": {
+            "name": "GrinderTipHelper"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 203,
+          "y": 95,
+          "locked": false
+        }
       }
     ],
     "gridSettings": {
@@ -146,7 +164,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

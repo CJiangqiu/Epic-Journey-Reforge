@@ -22,6 +22,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 import java.io.InputStream;
+import java.io.File;
 
 import com.ibm.icu.util.Output;
 
@@ -37,6 +38,8 @@ public class InitCustomRecipeTypeProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world) {
+		com.google.gson.JsonObject empty_object = new com.google.gson.JsonObject();
+		File empty_file = new File("");
 		EjrModVariables.GRINDER_RECIPES_ARRAY = new com.google.gson.JsonArray();
 		{
 			if (world instanceof ServerLevel srvlvl_) {

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "ejr:steel_block",
     "ejr:grinder"
   ]
 }

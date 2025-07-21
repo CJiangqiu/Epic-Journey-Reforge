@@ -5,6 +5,6 @@
     "file": "Epic Journey Reforge-Meachines",
     "configType": 0,
     "config": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"config_start\" deletable=\"false\" x=\"233\" y=\"79\"><next><block type=\"config_variable\"><field name=\"name\">enable_meachine_sounds</field><field name=\"comment\">Allow machines in the mod to play sounds while working.</field><value name=\"value\"><block type=\"config_logic_variable\"><field name=\"name\">Enable Machine Sounds</field><field name=\"value\">true</field></block></value></block></next></block></xml>",
-    "defining": true
+    "defining": false
   }
 }

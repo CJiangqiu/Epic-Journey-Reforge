@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "a b",
+    " ab"
+  ],
+  "key": {
+    "a": {
+      "item": "ejr:black_copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ejr:black_copper_bow",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "ejr:grinder_jei_recipe_type",
+  "ingredients": [
+    {
+      "item": "ejr:silver_ingot"
+    }
+  ],
+  "output": {
+    "item": "ejr:silver_dust",
+    "count": 1
+  }
+}

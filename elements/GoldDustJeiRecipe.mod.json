@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "grinder_jei_recipe_type",
+    "result": {
+      "value": "CUSTOM:GoldDust"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ]
+  }
+}

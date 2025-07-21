@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:raw_blocks/silver"
+    }
+  ],
+  "result": {
+    "item": "ejr:raw_silver",
+    "count": 9
+  }
+}

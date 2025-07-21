@@ -1,0 +1,12 @@
+{
+  "type": "ejr:grinder_jei_recipe_type",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "output": {
+    "item": "ejr:gold_dust",
+    "count": 1
+  }
+}

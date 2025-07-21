@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "ejr:raw_silver_block",
+    "ejr:steel_block",
+    "ejr:silver_block",
+    "ejr:silver_ore",
     "ejr:grinder"
   ]
 }

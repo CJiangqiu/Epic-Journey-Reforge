@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ejr:block/steel_block",
+    "up": "ejr:block/steel_block",
+    "north": "ejr:block/steel_block",
+    "east": "ejr:block/steel_block",
+    "south": "ejr:block/steel_block",
+    "west": "ejr:block/steel_block",
+    "particle": "ejr:block/steel_block"
+  },
+  "render_type": "solid"
+}

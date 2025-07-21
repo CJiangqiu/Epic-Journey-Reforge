@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ejr:item/black_copper_bow_pulling_2"
+  }
+}

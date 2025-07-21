@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "ejr:black_copper_ingot_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "ejr:steel_pickaxe"
+  },
+  "addition": {
+    "item": "ejr:black_copper_ingot"
+  },
+  "result": {
+    "item": "ejr:black_copper_pickaxe"
+  }
+}

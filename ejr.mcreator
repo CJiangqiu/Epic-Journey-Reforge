@@ -645,6 +645,991 @@
         ]
       },
       "path": "~/Block/Util"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/steel_pickaxe.json",
+          "src/main/java/net/ejr/item/SteelPickaxeItem.java"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/steel_axe.json",
+          "src/main/java/net/ejr/item/SteelAxeItem.java"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/SteelSwordItem.java",
+          "src/main/resources/assets/ejr/models/item/steel_sword.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/SteelShovelItem.java",
+          "src/main/resources/assets/ejr/models/item/steel_shovel.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/steel_hoe.json",
+          "src/main/java/net/ejr/item/SteelHoeItem.java"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_sword_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/SilverIngotItem.java",
+          "src/main/resources/assets/ejr/models/item/silver_ingot.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/silver_ore.json",
+          "src/main/resources/assets/ejr/blockstates/silver_ore.json",
+          "src/main/resources/data/ejr/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/data/ejr/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/data/ejr/loot_tables/blocks/silver_ore.json",
+          "src/main/resources/assets/ejr/models/block/silver_ore.json",
+          "src/main/resources/data/ejr/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/java/net/ejr/block/SilverOreBlock.java"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/block/SilverBlockBlock.java",
+          "src/main/resources/assets/ejr/blockstates/silver_block.json",
+          "src/main/resources/data/ejr/loot_tables/blocks/silver_block.json",
+          "src/main/resources/assets/ejr/models/block/silver_block.json",
+          "src/main/resources/assets/ejr/models/item/silver_block.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/blockstates/steel_block.json",
+          "src/main/resources/assets/ejr/models/block/steel_block.json",
+          "src/main/java/net/ejr/block/SteelBlockBlock.java",
+          "src/main/resources/assets/ejr/models/item/steel_block.json",
+          "src/main/resources/data/ejr/loot_tables/blocks/steel_block.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_block_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/SilverDustItem.java",
+          "src/main/resources/assets/ejr/models/item/silver_dust.json"
+        ]
+      },
+      "path": "~/Item/Dust"
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/RawSilverItem.java",
+          "src/main/resources/assets/ejr/models/item/raw_silver.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/silver_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SilverIngotRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/silver_ingot_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SilverBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/silver_block_recipe.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SilverIngotRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/silver_ingot_recipe_3.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "SteelIngotRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_ingot_recipe_3.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "GoldDustJeiRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_jei_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/gold_dust_jei_recipe.json"
+        ]
+      },
+      "path": "~/Item/Dust"
+    },
+    {
+      "name": "GrinderJEIRecipeType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_jei_recipe_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/jei_recipes/GrinderJEIRecipeTypeRecipe.java",
+          "src/main/java/net/ejr/jei_recipes/GrinderJEIRecipeTypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/Block/Grinder"
+    },
+    {
+      "name": "PullingHelper",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulling_helper",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/ejr/procedures/PullingHelperProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Item/Util"
+    },
+    {
+      "name": "SteelBow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/steel_bow_0.json",
+          "src/main/resources/assets/ejr/models/item/steel_bow_2.json",
+          "src/main/resources/assets/ejr/models/item/steel_bow_1.json",
+          "src/main/java/net/ejr/item/SteelBowItem.java",
+          "src/main/resources/assets/ejr/models/item/steel_bow.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelBowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/steel_bow_recipe.json"
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SteelBowUse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_bow_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/procedures/SteelBowUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Item/Steel"
+    },
+    {
+      "name": "SilverDustJeiRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_jei_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/silver_dust_jei_recipe.json"
+        ]
+      },
+      "path": "~/Item/Dust"
+    },
+    {
+      "name": "ShouldBowShoot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "should_bow_shoot",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/ShouldBowShootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Item/Util"
+    },
+    {
+      "name": "GoldSilverMixedDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_silver_mixed_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/GoldSilverMixedDustItem.java",
+          "src/main/resources/assets/ejr/models/item/gold_silver_mixed_dust.json"
+        ]
+      },
+      "path": "~/Item/Dust"
+    },
+    {
+      "name": "GoldSilverMixedDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_silver_mixed_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/gold_silver_mixed_dust_recipe.json"
+        ]
+      },
+      "path": "~/Item/Dust"
+    },
+    {
+      "name": "BetterThanIron",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_than_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/advancements/better_than_iron.json"
+        ]
+      },
+      "path": "~/Advancement"
+    },
+    {
+      "name": "RawSilverBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/block/RawSilverBlockBlock.java",
+          "src/main/resources/data/ejr/loot_tables/blocks/raw_silver_block.json",
+          "src/main/resources/assets/ejr/blockstates/raw_silver_block.json",
+          "src/main/resources/assets/ejr/models/item/raw_silver_block.json",
+          "src/main/resources/assets/ejr/models/block/raw_silver_block.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "RawSilverBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/raw_silver_block_recipe.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "RawSilverRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/raw_silver_recipe.json"
+        ]
+      },
+      "path": "~/Item/Silver"
+    },
+    {
+      "name": "TheOriginOfMagic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_origin_of_magic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/advancements/the_origin_of_magic.json"
+        ]
+      },
+      "path": "~/Advancement"
+    },
+    {
+      "name": "BlackCopperIngotUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/black_copper_ingot_upgrade_smithing_template.json",
+          "src/main/java/net/ejr/item/BlackCopperIngotUpgradeSmithingTemplateItem.java"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperIngotUpgradeSmithingTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_upgrade_smithing_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_ingot_upgrade_smithing_template_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/BlackCopperIngotItem.java",
+          "src/main/resources/assets/ejr/models/item/black_copper_ingot.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/BlackCopperPickaxeItem.java",
+          "src/main/resources/assets/ejr/models/item/black_copper_pickaxe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/BlackCopperAxeItem.java",
+          "src/main/resources/assets/ejr/models/item/black_copper_axe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/BlackCopperSwordItem.java",
+          "src/main/resources/assets/ejr/models/item/black_copper_sword.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/black_copper_shovel.json",
+          "src/main/java/net/ejr/item/BlackCopperShovelItem.java"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/BlackCopperHoeItem.java",
+          "src/main/resources/assets/ejr/models/item/black_copper_hoe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_axe_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_sword_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ejr/models/item/black_copper_armor_helmet.json",
+          "src/main/resources/assets/ejr/models/item/black_copper_armor_boots.json",
+          "src/main/resources/assets/ejr/models/item/black_copper_armor_chestplate.json",
+          "src/main/resources/assets/ejr/models/item/black_copper_armor_leggings.json",
+          "src/main/java/net/ejr/item/BlackCopperArmorItem.java"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperBow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/item/BlackCopperBowItem.java",
+          "src/main/resources/assets/ejr/models/item/black_copper_bow.json",
+          "src/main/resources/assets/ejr/models/item/black_copper_bow_2.json",
+          "src/main/resources/assets/ejr/models/item/black_copper_bow_1.json",
+          "src/main/resources/assets/ejr/models/item/black_copper_bow_0.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperBowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_bow_recipe.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BowUseEnd",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_use_end",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/procedures/BowUseEndProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Item/Util"
+    },
+    {
+      "name": "BlackCopperBowUse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_bow_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ejr/procedures/BlackCopperBowUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperPickaxeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_pickaxe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_pickaxe_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperAxeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_axe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_axe_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperSwordRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_sword_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_sword_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperShovelRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_shovel_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_shovel_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperHoeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_hoe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_hoe_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "BlackCopperBowRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_bow_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ejr/recipes/black_copper_bow_recipe_2.json"
+        ]
+      },
+      "path": "~/Item/BlackCopper"
+    },
+    {
+      "name": "GrinderTip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_tip",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/ejr/procedures/GrinderTipProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Block/Grinder"
+    },
+    {
+      "name": "GrinderTipHelper",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_tip_helper",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ejr/procedures/GrinderTipHelperProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Block/Grinder"
     }
   ],
   "variable_elements": [
@@ -653,6 +1638,18 @@
       "type": "jsonarray",
       "scope": "global",
       "value": "new com.google.gson.JsonArray()"
+    },
+    {
+      "name": "MODPACK_GRINDER_RECIPES",
+      "type": "file",
+      "scope": "global",
+      "value": "new File(\"\")"
+    },
+    {
+      "name": "MODPACK_GRINDER_RECIPES_OBJECT",
+      "type": "jsonobject",
+      "scope": "global",
+      "value": "new com.google.gson.JsonObject()"
     }
   ],
   "sound_elements": [
@@ -670,91 +1667,207 @@
       "CUSTOM:SteelRod"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:BlackCopperPickaxe",
+      "~CUSTOM:SteelPickaxe",
       "~CUSTOM:Bit",
       "~CUSTOM:SteelHarmer"
     ],
-    "ITEMS:forge:rods/steel": [
-      "CUSTOM:SteelRod"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Grinder"
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:BlackCopperHoe",
+      "~CUSTOM:SteelHoe"
     ],
     "ITEMS:c:ingots/steel": [
       "CUSTOM:SteelIngot"
     ],
-    "BLOCKS:minecraft:needs_stone_tool": [
+    "ITEMS:c:ores/silver": [
+      "CUSTOM:SilverOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RawSilverBlock",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:SilverBlock",
+      "~CUSTOM:SilverOre",
       "~CUSTOM:Grinder"
     ],
+    "ITEMS:c:raw_blocks/silver": [
+      "CUSTOM:RawSilverBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:Grinder"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:BlackCopperShovel",
+      "~CUSTOM:SteelShovel"
+    ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:BlackCopperAxe",
+      "~CUSTOM:SteelAxe",
       "~CUSTOM:SteelHarmer"
     ],
-    "ITEMS:forge:plates/steel": [
-      "CUSTOM:SteelPlate"
+    "ITEMS:c:raw_materials/silver": [
+      "CUSTOM:RawSilver"
     ],
-    "ITEMS:forge:tools/hammers": [
-      "CUSTOM:SteelHarmer"
+    "ITEMS:c:ingots/copper": [
+      "Items.COPPER_INGOT"
+    ],
+    "ITEMS:c:dusts/silver": [
+      "CUSTOM:SilverDust"
+    ],
+    "ITEMS:c:dusts/gold": [
+      "CUSTOM:GoldDust"
     ],
     "ITEMS:c:plates/steel": [
       "CUSTOM:SteelPlate"
     ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:RawSilverBlock",
+      "~CUSTOM:SilverBlock",
+      "~CUSTOM:SilverOre"
+    ],
     "ITEMS:c:tools/hammers": [
       "CUSTOM:SteelHarmer"
     ],
-    "ITEMS:forge:ingots/steel": [
-      "CUSTOM:SteelIngot"
-    ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:BlackCopperSword",
+      "~CUSTOM:SteelSword",
       "~CUSTOM:SteelHarmer"
+    ],
+    "ITEMS:c:ingots/silver": [
+      "CUSTOM:SilverIngot"
     ]
   },
   "tab_element_order": {
     "CUSTOM:EpicJourneyReforge": [
       "Scroll",
       "SteelIngot",
+      "SteelBlock",
       "SteelRod",
       "SteelHarmer",
       "SteelPlate",
       "SteelArmor",
+      "SteelPickaxe",
+      "SteelAxe",
+      "SteelSword",
+      "SteelShovel",
+      "SteelHoe",
+      "SteelBow",
       "Bit",
       "Grinder",
-      "GoldDust"
+      "GoldDust",
+      "SilverDust",
+      "GoldSilverMixedDust",
+      "SilverOre",
+      "RawSilver",
+      "RawSilverBlock",
+      "SilverIngot",
+      "SilverBlock",
+      "BlackCopperIngotUpgradeSmithingTemplate",
+      "BlackCopperIngot",
+      "BlackCopperPickaxe",
+      "BlackCopperAxe",
+      "BlackCopperSword",
+      "BlackCopperShovel",
+      "BlackCopperHoe",
+      "BlackCopperArmor",
+      "BlackCopperBow"
     ]
   },
   "language_map": {
     "en_us": {
+      "item.ejr.steel_axe": "Steel Axe",
+      "block.ejr.raw_silver_block": "Raw Silver Block",
+      "item.ejr.steel_bow": "Steel Bow",
+      "item.ejr.black_copper_ingot": "Black Copper Ingot",
+      "item.ejr.gold_silver_mixed_dust": "Gold Silver Mixed Dust",
       "item.ejr.steel_armor_helmet": "Steel Helmet",
       "item.ejr.steel_rod": "Steel Rod",
+      "item.ejr.silver_ingot": "Silver",
+      "block.ejr.silver_ore": "Silver Ore",
+      "item.ejr.black_copper_hoe": "Black Copper Hoe",
       "item.ejr.steel_plate": "Steel Plate",
-      "item.ejr.scroll": "Scroll",
-      "item.ejr.steel_armor_chestplate": "Steel Chestplate",
-      "subtitles.grinder": "",
+      "gui.tip.need_redstone": "Requires redstone power from above and below to operate!",
+      "block.ejr.silver_block": "Silver Block",
+      "advancements.the_origin_of_magic.title": "The Origin of Magic",
+      "item.ejr.black_copper_armor_leggings": "Black Copper Leggings",
       "item.ejr.steel_harmer": "Steel Harmer",
+      "advancements.better_than_iron.title": "Better Than Iron！",
       "item.ejr.gold_dust": "Gold Dust",
-      "item.ejr.steel_armor_leggings": "Steel Leggings",
-      "item.ejr.steel_armor_boots": "Steel Boots",
+      "item.ejr.steel_hoe": "Steel Hoe",
+      "item.ejr.raw_silver": "Raw Silver",
+      "item.ejr.black_copper_ingot_upgrade_smithing_template": "Black Copper Ingot Upgrade Smithing Template",
       "item.ejr.bit": "Bit",
-      "advancements.journeys_beginning.descr": "Welcome to \"Epic Journey: Reforge\"",
-      "advancements.journeys_beginning.title": " Journey’s Beginning",
+      "item.ejr.steel_sword": "Steel Sword",
+      "item.ejr.steel_shovel": "Steel Shovel",
+      "block.ejr.steel_block": "Steel Block",
       "item.ejr.steel_ingot": "Steel Ingot",
       "item_group.ejr.epic_journey_reforge": "Epic Journey:Reforge",
+      "item.ejr.black_copper_armor_helmet": "Black Copper Helmet",
+      "advancements.the_origin_of_magic.descr": "Obtain a Silver Ingot",
+      "item.ejr.scroll": "Scroll",
+      "item.ejr.steel_armor_chestplate": "Steel Chestplate",
+      "item.ejr.silver_dust": "Silver Dust",
+      "item.ejr.black_copper_shovel": "Black Copper Shovel",
+      "item.ejr.steel_armor_leggings": "Steel Leggings",
+      "item.ejr.steel_armor_boots": "Steel Boots",
+      "item.ejr.steel_pickaxe": "Steel Pickaxe",
+      "advancements.better_than_iron.descr": "Obtain a Steel Ingot",
+      "advancements.journeys_beginning.descr": "Welcome to \"Epic Journey: Reforge\"",
+      "item.ejr.black_copper_axe": "Black Copper Axe",
+      "item.ejr.black_copper_sword": "Black Copper Sword",
+      "item.ejr.black_copper_armor_chestplate": "Black Copper Chestplate",
+      "item.ejr.black_copper_pickaxe": "Black Copper Pickaxe",
+      "advancements.journeys_beginning.title": " Journey’s Beginning",
+      "item.ejr.black_copper_bow": "Black Copper Bow",
+      "item.ejr.black_copper_armor_boots": "Black Copper Boots",
       "block.ejr.grinder": "Grinder"
     },
     "zh_cn": {
+      "item.ejr.steel_axe": "钢斧",
+      "block.ejr.raw_silver_block": "粗银块",
+      "item.ejr.steel_bow": "钢弓",
+      "item.ejr.black_copper_ingot": "乌铜锭",
+      "item.ejr.gold_silver_mixed_dust": "金银混合粉末",
       "item.ejr.steel_armor_helmet": "钢制头盔",
       "item.ejr.steel_rod": "钢棒",
+      "item.ejr.silver_ingot": "银锭",
+      "block.ejr.silver_ore": "银矿",
+      "item.ejr.black_copper_hoe": "乌铜锄",
       "item.ejr.steel_plate": "钢板",
-      "item.ejr.scroll": "卷轴",
-      "item.ejr.steel_armor_chestplate": "钢制胸甲",
-      "subtitles.grinder": "",
+      "gui.tip.need_redstone": "需要在上方和下方提供红石能量工作！",
+      "block.ejr.silver_block": "银块",
+      "advancements.the_origin_of_magic.title": "魔法起源",
+      "item.ejr.black_copper_armor_leggings": "乌铜护腿",
       "item.ejr.steel_harmer": "钢锤",
-      "item.ejr.gold_dust": "Gold Dust",
-      "item.ejr.steel_armor_leggings": "钢制护腿",
-      "item.ejr.steel_armor_boots": "钢制靴",
+      "advancements.better_than_iron.title": "比铁更好！",
+      "item.ejr.gold_dust": "金粉",
+      "item.ejr.steel_hoe": "钢锄",
+      "item.ejr.raw_silver": "粗银",
+      "item.ejr.black_copper_ingot_upgrade_smithing_template": "乌铜锭锻造升级模版",
       "item.ejr.bit": "钻头",
-      "advancements.journeys_beginning.descr": "欢迎来到“史诗征程：重铸”",
-      "advancements.journeys_beginning.title": "征程的开始",
+      "item.ejr.steel_sword": "钢剑",
+      "item.ejr.steel_shovel": "钢锹",
+      "block.ejr.steel_block": "钢块",
       "item.ejr.steel_ingot": "钢锭",
       "item_group.ejr.epic_journey_reforge": "史诗征程：重铸",
+      "item.ejr.black_copper_armor_helmet": "乌铜头盔",
+      "advancements.the_origin_of_magic.descr": "获得银锭",
+      "item.ejr.scroll": "卷轴",
+      "item.ejr.steel_armor_chestplate": "钢制胸甲",
+      "item.ejr.silver_dust": "银粉",
+      "item.ejr.black_copper_shovel": "乌铜锹",
+      "item.ejr.steel_armor_leggings": "钢制护腿",
+      "item.ejr.steel_armor_boots": "钢制靴",
+      "item.ejr.steel_pickaxe": "钢镐",
+      "advancements.better_than_iron.descr": "获得一个钢锭",
+      "advancements.journeys_beginning.descr": "欢迎来到“史诗征程：重铸”",
+      "item.ejr.black_copper_axe": "乌铜斧",
+      "item.ejr.black_copper_sword": "乌铜剑",
+      "item.ejr.black_copper_armor_chestplate": "乌铜胸甲",
+      "item.ejr.black_copper_pickaxe": "乌铜镐",
+      "advancements.journeys_beginning.title": "征程的开始",
+      "item.ejr.black_copper_bow": "Black Copper Bow",
+      "item.ejr.black_copper_armor_boots": "乌铜靴",
       "block.ejr.grinder": "磨粉机"
     }
   },
@@ -770,6 +1883,18 @@
           },
           {
             "name": "Dust",
+            "children": []
+          },
+          {
+            "name": "Silver",
+            "children": []
+          },
+          {
+            "name": "Util",
+            "children": []
+          },
+          {
+            "name": "BlackCopper",
             "children": []
           }
         ]
@@ -800,12 +1925,13 @@
   "workspaceSettings": {
     "modid": "ejr",
     "modName": "Epic Journy:Reforge",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "It will be an epic journey: you’ll confront powerful “gods,” forge many friendships, and relish an adventurous life in another world.",
     "author": "CJiangqiu",
     "websiteURL": "https://github.com/CJiangqiu/Epic-Journey-Reforge",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "epic-journey",
     "requiredMods": [
       "jei"
     ],

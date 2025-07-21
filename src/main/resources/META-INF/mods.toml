@@ -4,9 +4,10 @@ license="MIT License"
 
 [[mods]]
 modId="ejr"
-version="0.0.1"
+version="0.0.2"
 displayName="Epic Journy:Reforge"
 displayURL="https://github.com/CJiangqiu/Epic-Journey-Reforge"
+logoFile="logo.png"
 credits="None"
 authors="CJiangqiu"
 description="It will be an epic journey: you\u2019ll confront powerful \u201Cgods,\u201D forge many friendships, and relish an adventurous life in another world."

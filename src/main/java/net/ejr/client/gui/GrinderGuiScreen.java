@@ -15,6 +15,8 @@ import net.ejr.procedures.Progress3Procedure;
 import net.ejr.procedures.Progress2Procedure;
 import net.ejr.procedures.Progress1Procedure;
 import net.ejr.procedures.HasRedstoneUpDownProcedure;
+import net.ejr.procedures.GrinderTipProcedure;
+import net.ejr.procedures.GrinderTipHelperProcedure;
 
 import java.util.HashMap;
 
@@ -44,6 +46,9 @@ public class GrinderGuiScreen extends AbstractContainerScreen<GrinderGuiMenu> {
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+		if (GrinderTipHelperProcedure.execute(world, x, y, z))
+			if (mouseX > leftPos + 77 && mouseX < leftPos + 101 && mouseY > topPos + 58 && mouseY < topPos + 82)
+				guiGraphics.renderTooltip(font, Component.literal(GrinderTipProcedure.execute()), mouseX, mouseY);
 	}
 
 	@Override
@@ -53,10 +58,10 @@ public class GrinderGuiScreen extends AbstractContainerScreen<GrinderGuiMenu> {
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("ejr:textures/screens/redstone_false.png"), this.leftPos + 78, this.topPos + 61, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("ejr:textures/screens/redstone_false.png"), this.leftPos + 80, this.topPos + 61, 0, 0, 16, 16, 16, 16);
 
 		if (HasRedstoneUpDownProcedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("ejr:textures/screens/restone_true.png"), this.leftPos + 78, this.topPos + 61, 0, 0, 16, 16, 16, 16);
+			guiGraphics.blit(new ResourceLocation("ejr:textures/screens/restone_true.png"), this.leftPos + 80, this.topPos + 61, 0, 0, 16, 16, 16, 16);
 		}
 
 		guiGraphics.blit(new ResourceLocation("ejr:textures/screens/progress_0.png"), this.leftPos + 69, this.topPos + 25, 0, 0, 32, 32, 32, 32);

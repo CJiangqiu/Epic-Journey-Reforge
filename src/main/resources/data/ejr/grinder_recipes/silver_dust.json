@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "ejr:silver_ingot",
+    "count": 1
+  },
+  "result": {
+    "item": "ejr:silver_dust",
+    "count": 2
+  },
+  "time": 100
+}

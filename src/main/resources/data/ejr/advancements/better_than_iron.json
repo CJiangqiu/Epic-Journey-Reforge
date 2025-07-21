@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "ejr:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.better_than_iron.title"
+    },
+    "description": {
+      "translate": "advancements.better_than_iron.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "better_than_iron_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ejr:steel_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ejr:steel_armor_helmet_recipe",
+      "ejr:steel_armor_chestplate_recipe",
+      "ejr:steel_armor_leggings_recipe",
+      "ejr:steel_armor_boots_recipe",
+      "ejr:steel_rod_recipe",
+      "ejr:steel_harmer_recipe",
+      "ejr:steel_plate_recipe",
+      "ejr:bit_recipe",
+      "ejr:grinder_recipe",
+      "ejr:steel_pickaxe_recipe",
+      "ejr:steel_axe_recipe",
+      "ejr:steel_sword_recipe",
+      "ejr:steel_shovel_recipe",
+      "ejr:steel_hoe_recipe",
+      "ejr:steel_bow_recipe"
+    ]
+  },
+  "parent": "ejr:journeys_beginning"
+}

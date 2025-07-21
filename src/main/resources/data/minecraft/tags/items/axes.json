@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "ejr:black_copper_axe",
+    "ejr:steel_axe",
     "ejr:steel_harmer"
   ]
 }

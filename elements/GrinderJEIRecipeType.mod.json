@@ -1,0 +1,33 @@
+{
+  "_fv": 73,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "grinder_jei_gui.png",
+    "width": 176,
+    "height": 80,
+    "icon": {
+      "value": "CUSTOM:Grinder"
+    },
+    "craftingtables": [
+      {
+        "value": "CUSTOM:Grinder"
+      }
+    ],
+    "enableCraftingtable": true,
+    "title": "Grinder",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 42,
+        "y": 32,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 114,
+        "y": 32,
+        "slotid": 0
+      }
+    ]
+  }
+}
